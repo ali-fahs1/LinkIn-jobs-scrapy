@@ -17,7 +17,7 @@ class LinkinSpiderSpider(scrapy.Spider):
 
         jobs=response.css('li')
         num_job = len(jobs)
-        print('--------------------------------------')
+        print('---------------------------------------')
         print(first_job_on_page)
         print(num_job)
         for job in jobs:
